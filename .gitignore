@@ -1,0 +1,12 @@
+# macOS 系统文件
+.DS_Store
+
+# IntelliJ IDEA 配置文件（最重要，防止 .idea 上传）
+.idea/
+*.iml
+*.iws
+
+# Gradle 构建产物（作为兜底，防止子项目漏网）
+build/
+.gradle/
+out/
